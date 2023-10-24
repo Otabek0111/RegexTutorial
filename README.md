@@ -44,12 +44,15 @@ Quantifiers are used to specify the number of times a character or group of char
 
 ### OR Operator
 
+The OR operator is used to match one of two or more expressions. The email validation regex pattern uses the following OR operator: The most common OR operator is |, which matches either the expression before or after the operator. For example, the regex pattern (a|b) matches either a or b. 
 
 ### Character Classes
 
+Character classes are used to match a set of characters. The email validation regex pattern uses the following character classes: The most common character classes are \d, \w, and \s, which match a digit, word character, and whitespace character, respectively. The \d character class is used to match a digit. The \w character class is used to match a word character. The \s character class is used to match a whitespace character. 
 
 ### Flags
 
+Flags are used to perform case-insensitive and global searches. The email validation regex pattern uses the following flags: The most common flags are i and g, which perform case-insensitive and global searches, respectively. The i flag is used to perform a case-insensitive search. The g flag is used to perform a global search. 
 
 ### Grouping and Capturing
 
