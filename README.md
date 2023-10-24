@@ -80,5 +80,12 @@ Back references are used to match the same text as previously matched by a captu
 Look ahead and look behind are used to match a position that is followed or preceded by a specific character. The email validation regex pattern uses the following look ahead and look behind: The most common look ahead and look behind are (?=) and (?<=), which match a position that is followed by a specific character and a position that is preceded by a specific character, respectively. The (?=) look ahead is used to match a position that is followed by a specific character. The (?<=) look behind is used to match a position that is preceded by a specific character. 
 
 ## Author
+Otabek Islomjonov CU Bootcamp Student
 
-[Github Profile Click here](https://github.com/Otabek0111)
+[Github Profile](https://github.com/Otabek0111)
+
+## Sources 
+
+[Email Validation Regex](https://emailregex.com/)   
+[Regex Tutorial](https://www.regular-expressions.info/tutorial.html)    
+[Regex Cheat Sheet](https://www.rexegg.com/regex-quickstart.html)
