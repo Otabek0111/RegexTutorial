@@ -73,9 +73,11 @@ Bounaries are used to match a position that is not preceded or followed by a spe
 
 ### Back-references
 
+Back references are used to match the same text as previously matched by a capturing group. The email validation regex pattern uses the following back-references: The most common back-reference is \1, which matches the same text as previously matched by the first capturing group. For example, the pattern (\w)\1 matches the first letter of "apple" and "orange".
 
 ### Look-ahead and Look-behind
 
+Look ahead and look behind are used to match a position that is followed or preceded by a specific character. The email validation regex pattern uses the following look ahead and look behind: The most common look ahead and look behind are (?=) and (?<=), which match a position that is followed by a specific character and a position that is preceded by a specific character, respectively. The (?=) look ahead is used to match a position that is followed by a specific character. The (?<=) look behind is used to match a position that is preceded by a specific character. 
 
 ## Author
 
