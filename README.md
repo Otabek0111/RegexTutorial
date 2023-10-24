@@ -56,15 +56,20 @@ Flags are used to perform case-insensitive and global searches. The email valida
 
 ### Grouping and Capturing
 
+Grouping and capturing are used to group and capture subexpressions. The email validation regex pattern uses the following grouping and capturing: The most common grouping and capturing is (), which groups and captures subexpressions. For example, the pattern (cat) matches and captures cat in "The cat is black". 
 
 ### Bracket Expressions
+
+Bracket expressions are used to match a character from a specific set of characters. The email validation regex pattern uses the following bracket expressions: The most common bracket expressions are [abc], [^abc], [a-z], [a-zA-Z], [0-9], and [a-z0-9], which match a, b, or c, not a, b, or c, a through z, a through z or A through Z, 0 through 9, and a through z or 0 through 9, respectively. The [abc] bracket expression is used to match a, b, or c. The [^abc] bracket expression is used to match any character except a, b, or c. The [a-z] bracket expression is used to match any character from a through z. The [a-zA-Z] bracket expression is used to match any character from a through z or A through Z. The [0-9] bracket expression is used to match any character from 0 through 9. The [a-z0-9] bracket expression is used to match any character from a through z or 0 through 9.
 
 
 ### Greedy and Lazy Match
 
+Greedy and lazy match are used to match the longest and shortest possible strings, respectively. The email validation regex pattern uses the following greedy and lazy match: The most common greedy and lazy match are *, +, and ?, which match the longest possible string, one or more times, and zero or more times, respectively. The * greedy match is used to match the longest possible string, zero or more times. The + greedy match is used to match the longest possible string, one or more times. The ? greedy match is used to match the longest possible string, zero or one time. 
 
 ### Boundaries
 
+Bounaries are used to match a position that is not preceded or followed by a specific character. The email validation regex pattern uses the following boundaries: The most common boundaries are \b and \B, which match a word boundary and a non-word boundary, respectively. The \b boundary is used to match a word boundary. The \B boundary is used to match a non-word boundary. 
 
 ### Back-references
 
